@@ -42,3 +42,8 @@ print(two_digit_int)
 
 
 
+life left:
+age=input()
+year=90-int(age)
+weeks=year*52
+print(f"you have the {weeks} left.")
