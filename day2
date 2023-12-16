@@ -8,4 +8,12 @@ tip=total_bill+tip_money
 total=tip/split_bill
 print("each person should pay: ",total)
 
-  
+  type convention:
+
+k=len(input("enter the name"))
+n=str(k)
+print("your name as" + n + "charaters")
+
+o/p :
+enter the namekiran kumar
+your name as11charaters
