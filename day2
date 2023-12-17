@@ -1,12 +1,19 @@
 tip calculator:
 
-print("Welcome to the tip calculator.")
-total_bill=int(input("what was the total bill? $ "))
-split_bill=int(input("how many people to split the bill?"))
-tip_money=int(input("what percentage tip would you like to give? 10, 12, or 15?"))
-tip=total_bill+tip_money
-total=tip/split_bill
-print("each person should pay: ",total)
+print("Welcome to the calculator")
+bill=float(input("what was the total bill? $"))
+split=int(input("How many people to split the bill?"))
+tip=float(input("what percentage tip would you like to give? 10, 12, or 15?"))
+tip_per=(tip/100)*bill
+total_amt=bill+tip_per
+split_amt=total_amt/split
+final_amt=(round(split_amt,2))
+print(f"each person to pay {final_amt}")
+# tip_per_amount=150*tip_per
+
+o/p:
+
+
 
   type convention:
 
@@ -42,8 +49,11 @@ print(two_digit_int)
 
 
 
+
 life left:
 age=input()
 year=90-int(age)
 weeks=year*52
 print(f"you have the {weeks} left.")
+
+
