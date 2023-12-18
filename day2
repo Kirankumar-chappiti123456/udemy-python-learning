@@ -57,3 +57,17 @@ weeks=year*52
 print(f"you have the {weeks} left.")
 
 
+leaf year :
+
+
+leaf_year=int(input("enter the year"))
+if leaf_year % 4 == 0:
+    if leaf_year % 100 == 0:
+        if leaf_year %400 == 0:
+            print("leaf year")
+        else :
+            print("not leaf year")
+    else :
+        print(" is a leaf_year")
+else :
+    print("not a leaf_year")
