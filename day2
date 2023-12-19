@@ -71,3 +71,31 @@ if leaf_year % 4 == 0:
         print(" is a leaf_year")
 else :
     print("not a leaf_year")
+
+
+rollercoaster to take photo total bill :
+print("Welcome to the rollercoaster!")
+height=float(input("enter the height of the child"))
+bill=0
+if height >=120:
+  print("u can ride the rolllercoaster")
+  age=int(input("enter ur age"))
+  if age <12 :
+    bill=5
+    print("child ticket is 5$")
+  elif age <=18 :
+    bill=7
+    print("child ticket is 7$")
+  else:
+    bill=12
+    print("child ticket is 12$")
+  photo=input("do you want photo Y or N.")
+  if photo == "Y":
+    bill+=3
+  else:
+    print("no photo")
+  print(f"the total bill is {bill}$")
+else :
+  print("ur not allowed to the rollercoaster")
+
+
