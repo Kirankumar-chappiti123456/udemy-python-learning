@@ -133,3 +133,35 @@ enter the size of the pizza? S, M, or LS
 Do you want extra cheese? Y or NY
 the total bill is 18
 > 
+
+
+
+
+print("Welcome to the rollercoaster.")
+height=int(input("enter ur height: "))
+bill=0
+if height >= 120 :
+    print("you can ride th rollercoaster.")
+    age=int(input("enter your age: "))
+    if age <12:
+        bill=5
+        print(" you can pay : $5")
+    elif age <=18 :
+        bill=7
+        print("you can pay: $7")
+    elif age >=45 and age <=55 :
+        bill=0
+        print("you can take a free ride")
+    else:
+        bill=12
+        print("you can pay : $12")
+    add_photo=input("do you want photo? Y or N")
+    if add_photo == "Y":
+        if age <45:
+            bill+=3
+        else :
+            print("free photo")
+        
+print(f"total bill :{bill}")
+
+
