@@ -165,3 +165,30 @@ if height >= 120 :
 print(f"total bill :{bill}")
 
 
+love calculator:
+
+
+
+print("Welcome to the love calculator.")
+name1=input("enter the your name:")
+name2=input("enter the your loved once name:")
+combine_name=name1+name2
+lower_name=combine_name.lower()
+t=lower_name.count("t")
+r=lower_name.count("r")
+u=lower_name.count("u")
+e=lower_name.count("e")
+first_digit=t+r+u+e
+
+l=lower_name.count("t")
+o=lower_name.count("t")
+v=lower_name.count("t")
+e=lower_name.count("t")
+second_digit=l+o+v+e
+score=int(str(first_digit)+str(second_digit))
+
+print(f"your score is {score}.")
+if score <50 :
+    print(f"no love")
+
+
