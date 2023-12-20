@@ -192,3 +192,11 @@ if score <50 :
     print(f"no love")
 
 
+head and tails:
+
+import random
+random_integer=random.randint(0,1)
+if random_integer==1:
+    print("Heads")
+else:
+    print("Tails")
