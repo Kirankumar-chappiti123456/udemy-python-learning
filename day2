@@ -200,3 +200,13 @@ if random_integer==1:
     print("Heads")
 else:
     print("Tails")
+
+
+till payer today game:
+import random
+names=["kiran","kumar","chappiti"]
+name=len(names)
+pay=random.randint(0,name-1)
+payer=names[pay]
+print(f"{payer} is paying bill today")
+
