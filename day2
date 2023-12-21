@@ -210,3 +210,7 @@ pay=random.randint(0,name-1)
 payer=names[pay]
 print(f"{payer} is paying bill today")
 
+
+index function:
+fruits=["apple","bananna","manago","orange"]
+print(fruits.index("manago"))
