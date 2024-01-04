@@ -231,3 +231,30 @@ letter_index=abc.index(letter)
 num_index=int(position[1])-1
 map[num_index][letter_index]="X"
 print(f"{line1}\n{line2}\n{line3}")
+
+
+
+
+rock paper scissor game:
+import random
+computer_choice=random.randint(0,2)
+user_choice=int(input("enter your choice,type 0 for rock,type 1 for paper,type 2 for scissor\n"))
+print(f"computer choice \n{computer_choice}")
+if computer_choice == user_choice:
+    print("it's a draw!")
+elif computer_choice == 0 and user_choice == 1:
+    print("you win!")
+elif user_choice == 0 and computer_choice == 1:
+    print("you lose!")
+elif user_choice == 0 and computer_choice == 2:
+    print("you win!")
+elif computer_choice ==0 and user_choice == 2 :
+    print("you lose!")
+elif computer_choice == 1 and user_choice == 2:
+    print("you win!")
+elif user_choice == 1 and computer_choice == 2:
+    print("you lose!")
+
+    
+    
+
