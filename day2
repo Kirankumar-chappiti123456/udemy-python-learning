@@ -234,7 +234,6 @@ print(f"{line1}\n{line2}\n{line3}")
 
 
 
-
 rock paper scissor game:
 import random
 computer_choice=random.randint(0,2)
